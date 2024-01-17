@@ -1,9 +1,5 @@
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family
 }
-p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-}
-
