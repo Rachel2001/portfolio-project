@@ -245,7 +245,6 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
