@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Information about Racheline">
+    <title>About Racheline</title>
     <link rel="stlesheet" href="/styles/portfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,9 +28,24 @@
       src="https://kit.fontawesome.com/88f080a474.js"
       crossorigin="anonymous"
     ></script>
-    <title>About Me</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage" >
+          <img src="images/logo.png"  class="logo d-none d-md-block" alt="Racheline Logo">
+          <img src="images/logo-small.jpg" class="logo d-block d-md-none"  alt="Racheline Logo">
+        </a>
+        <ul>
+          <li class="active">
+            <li><a href="/" title="Homepage" >Home</a></li>
+            <li><a href="/about.html" title="About page" >About</a></li>
+            <li><a href="/work.html" title="Work page" >Work</a></li>
+            <li class="active"><a href="/contact.html" title="Contact page" >Contact</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="about-section container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,7 +58,7 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="work.html" class="btn btn-branding">See my projects</a>
+            <a href="work.html" class="btn btn-branding" title="Racheline's Work" >See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
